@@ -1,5 +1,6 @@
-(ns koans.04-sets
-  (:require [koan-engine.core :refer :all]))
+(ns koans.05-sets
+  (:require [koan-engine.core :refer :all]
+            [clojure.set :as set]))
 
 (meditations
   "You can create a set by converting another collection"
